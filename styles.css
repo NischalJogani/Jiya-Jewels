@@ -1,0 +1,36 @@
+body {
+    font-family: 'Montserrat', sans-serif;
+}
+
+.branding {
+    font-size: 265%;
+}
+
+.design-img {
+    width: 100%;
+    display: block;
+    height: auto;
+}
+
+.details {
+    display: none;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-size: 1.6em;
+}
+
+.designid {
+    font-size: 3em;
+}
+
+.container:hover + .details {
+    display: block;
+    color: #fff;
+}
+
+.container {
+    text-align: center;
+    width: 80%;
+}
